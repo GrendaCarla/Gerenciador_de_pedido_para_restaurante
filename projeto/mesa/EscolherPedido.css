@@ -1,0 +1,99 @@
+.ativo{
+	background-color: #BF6379;
+	color: black;
+}
+
+.inativo{
+	background-color: white;
+	color: gray;
+}
+
+.titulo{
+	color: white;
+	font-size: 200%;
+}
+
+p{
+	font-size: 20px;
+	text-align: center;
+}
+
+.linhaPetra{
+	color: white;
+	font-size: 20px;
+}
+.bnt2{
+	width: 130px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+.bnt3{
+	height:40px;
+	width: 130px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+.bnt4{
+	height: 50px;
+	width: 130px;
+	font-size: 18px;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+.table3{
+	font-size: 16px;
+	font-weight: bold
+}
+
+.linhaTabela{
+	font-size: 20px;
+}
+
+.tituloModel{
+	font-size: 100%;
+	color: white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0,0,0,0.4);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  padding: 50px 0px;
+}
+
+.modal > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #fff;
+}
+
+td{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.quantidade{
+	text-align: center;
+}

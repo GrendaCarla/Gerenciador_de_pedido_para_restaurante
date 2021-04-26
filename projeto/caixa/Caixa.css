@@ -1,0 +1,71 @@
+.titulo{
+	color: white;
+	font-size: 200%;
+}
+
+#table1{
+	color: white;
+}
+
+.bnt2{
+	height:40px;
+	width: 130px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #C4C4C4;
+}
+
+.linhaPetra{
+	color: white;
+	font-size: 23px;
+	height: 30px;
+}
+
+.table3{
+	font-size: 16px;
+	font-weight: bold
+}
+
+.tituloModel{
+	font-size: 100%;
+	color: white;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(0,0,0,0.4);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 200ms ease-in;
+  -moz-transition: opacity 200ms ease-in;
+  transition: opacity 200ms ease-in;
+  pointer-events: none;
+}
+
+.modal:target {
+  opacity: 1;
+  pointer-events: auto;
+  padding: 50px 0px;
+}
+
+.modal > div {
+  width: 400px;
+  position: relative;
+  margin: 10% auto;
+  padding: 15px 20px;
+  background: #fff;
+}
+
+td{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.linhaTabela{
+	font-size: 20px;
+}
