@@ -8,3 +8,6 @@ O Gerenciador de pedido para restaurante é um desenvolvimento web simples para 
 * PHP
 * JavaScript
 * CSS
+
+# printscreen UI
+
